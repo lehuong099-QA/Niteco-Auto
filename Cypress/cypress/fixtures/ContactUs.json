@@ -1,0 +1,27 @@
+{
+    "ContactUs": {
+        "url": "https://prep.brownells.com/contact-us/",
+        "Information": [
+            {
+                "FirstName": "Le",
+                "LastName": "Huong",
+                "EmailAddress": "huong",
+                "Message": "message1 to you "
+            },
+            {
+                "FirstName": "Le",
+                "LastName": "Huong",
+                "EmailAddress": "lehuong@gmail.com",
+                "Message": "message1 to you "
+            }
+        ],
+        "Message": {
+            "MSG1": "This field is required.",
+            "MSG2": "Enter a valid email address."
+        },
+        "ContactSuccessfully": "The form has been submitted successfully."
+
+    }
+
+        
+}
