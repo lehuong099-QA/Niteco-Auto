@@ -75,18 +75,18 @@ class PdpPage {
     {
         this.elements.proceedToCheckOutbtn().click();
     }
-    ClickSignInOnPage (username, password)
-    {   
-    this.elements.usernametxt().type(username);
-    this.elements.Passwordtxt().type (password);
-    this.elements.signinbtn().click();
-    }
-    ClickSignInOnPopup (username, password)
-    {   
-    this.elements.usernametxt1().type(username,{ delay: 100 });
-    cy.wait(1000);
-    this.elements.Passwordtxt1().type (password,{ delay: 100 });
-    this.elements.signinbtn1().click();
-    }
+    // ClickSignInOnPage (username, password)
+    // {   
+    // this.elements.usernametxt().type(username);
+    // this.elements.Passwordtxt().type (password);
+    // this.elements.signinbtn().click();
+    // }
+    // ClickSignInOnPopup (username, password)
+    // {   
+    // this.elements.usernametxt1().type(username,{ delay: 100 });
+    // cy.wait(1000);
+    // this.elements.Passwordtxt1().type (password,{ delay: 100 });
+    // this.elements.signinbtn1().click();
+    // }
 }
     export default PdpPage
